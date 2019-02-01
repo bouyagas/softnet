@@ -1,0 +1,35 @@
+{
+  "name": "postservices",
+  "version": "1.0.0",
+  "description": "This is a services allowed uses to post interesting subject about software development",
+  "main": "server.js ",
+  "server": "nodemon server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouyagas/softnet.git"
+  },
+  "keywords": [
+    "services",
+    "application"
+  ],
+  "author": "Mohamed Gassama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouyagas/softnet/issues"
+  },
+  "homepage": "https://github.com/bouyagas/softnet#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
