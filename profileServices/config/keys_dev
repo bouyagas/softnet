@@ -1,0 +1,4 @@
+module.exports = {
+  mongodbURL: 'mongodb://softnet3:softnet3@ds121896.mlab.com:21896/profileservices',
+  secretOrKey: 'secret3'
+}
