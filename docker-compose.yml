@@ -19,6 +19,9 @@ services:
       - "3002:3000"
     depends_on: 
       - db
+    links: 
+      - userauthServices
+      - profileservices
 
   profileservices:
     build: './profileServices'
@@ -26,6 +29,9 @@ services:
       - "3003:3000"
     depends_on: 
       - db
+    links: 
+      - userauthServices
+      - postservices
 
   db:
     image: mongo
