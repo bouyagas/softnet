@@ -29,7 +29,7 @@ mongoose.connect(db,
 // require('./config/passport')(passport);
 
 // User Api
-server.use('/api/profile', profileApi);
+server.use('/api/profiles', profileApi);
 
 // Server static assets if in production
 if (process.env.NODE_ENV === 'production') {
