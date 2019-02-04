@@ -1,4 +1,15 @@
 {
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "name": "userauthservices",
+  "version": "1.0.0",
+  "description": "This is allowed users authenticate thier account",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+=======
+=======
+>>>>>>> profileservices
   "name": "userauthservice",
   "version": "1.0.0",
   "description": "This is a services allow user to authenticated user account",
@@ -23,6 +34,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js"
+<<<<<<< HEAD
+>>>>>>> userauthservices
+=======
+>>>>>>> profileservices
   },
   "repository": {
     "type": "git",
@@ -32,9 +47,35 @@
     "auth"
   ],
   "author": "Mohamed Gassama",
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/bouyagas/softnet/issues"
+  },
+  "homepage": "https://github.com/bouyagas/softnet#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  }
+=======
+=======
+>>>>>>> profileservices
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bouyagas/softnet/issues"
   },
   "homepage": "https://github.com/bouyagas/softnet#readme"
+<<<<<<< HEAD
+>>>>>>> userauthservices
+=======
+>>>>>>> profileservices
 }
