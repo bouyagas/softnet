@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "userauthservices",
   "version": "1.0.0",
   "description": "This is allowed users authenticate thier account",
@@ -7,6 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
 =======
+=======
+>>>>>>> profileservices
   "name": "userauthservice",
   "version": "1.0.0",
   "description": "This is a services allow user to authenticated user account",
@@ -31,7 +34,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js"
+<<<<<<< HEAD
 >>>>>>> userauthservices
+=======
+>>>>>>> profileservices
   },
   "repository": {
     "type": "git",
@@ -41,6 +47,7 @@
     "auth"
   ],
   "author": "Mohamed Gassama",
+<<<<<<< HEAD
 <<<<<<< HEAD
   "license": "MIT ",
   "bugs": {
@@ -60,10 +67,15 @@
     "validator": "^10.11.0"
   }
 =======
+=======
+>>>>>>> profileservices
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bouyagas/softnet/issues"
   },
   "homepage": "https://github.com/bouyagas/softnet#readme"
+<<<<<<< HEAD
 >>>>>>> userauthservices
+=======
+>>>>>>> profileservices
 }

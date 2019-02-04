@@ -1,11 +1,11 @@
 const mongoose = require('mongoose')
-const Schema = mongoose.Schema
+const Schema = mongoose.Schema;
 
 // Creating A Post schema 
 
 const PostSchema = new Schema({
   user: {
-    id: Schema.Types.ObjectId,
+    type: Schema.Types.ObjectId,
     ref: 'users'
   },
 
@@ -25,7 +25,7 @@ const PostSchema = new Schema({
   like: [
     {
       user: {
-        id: Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId,
         ref: 'users'
       }
     }
@@ -34,7 +34,7 @@ const PostSchema = new Schema({
   comment: [
     {
       user: {
-        id: Schema.Types.ObjectId,
+        type: Schema.Types.ObjectId,
         ref: 'users'
       },
       text: {
